@@ -1,0 +1,57 @@
+.codediv{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+.question{
+    background-color: rgb(34, 187, 187);
+    width: 95%;
+    margin: auto;
+    height: 380px;
+}
+
+.head{
+    font-size: 21px;
+    font-weight:  600;
+}
+.input{
+    /* border: /1px solid; */
+    width: 95%;
+    margin: auto;
+}
+.input>button{
+    
+  width: 180px;
+  background-color: rgb(34, 187, 187);
+  color: white;
+  padding: 8px 5px;
+  font-weight: 600;
+  border: none;
+  margin-left: 1rem;
+}
+.input>input{
+    /* width: 90%; */
+    width: 300px;
+    height: 1.5rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: rgb(77, 224, 224);
+  
+    margin-bottom: 0.3rem;
+
+}
+.input>p{
+    font-size: 14px;
+    margin-top: 0;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

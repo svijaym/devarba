@@ -1,0 +1,18 @@
+.btmbtn {
+  display: flex;
+  flex-basis: 1;
+  width: 180px;
+  background-color: rgb(34, 187, 187);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-weight: 600;
+}
+.moveright{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+
+}

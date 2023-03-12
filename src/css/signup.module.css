@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  /* border: 1px solid black; */
+  height: 100vh;
+  justify-content: space-between;
+  text-align: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: rgb(34, 187, 187);
+  justify-content: space-between;
+}
+/* left div */
+.topcircle {
+  background-color: rgb(15, 145, 168);
+  width: 200px;
+  height: 200px;
+  border-bottom-right-radius: 80%;
+
+}
+.btmcircle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.btmcircle >div:last-child{
+    width: 50%;
+    background-color: rgb(15, 145, 168);
+    height: 300px;
+    border-top-left-radius: 85%;
+
+}
+
+/* right circle */
+.right {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.815);
+}
+.round {
+  /* border: 1px solid red; */
+  width: 60px;
+  height: 60px;
+  background-color: rgb(30, 173, 173);
+  margin: auto;
+  border-radius: 50%;
+}
+.formdiv {
+  /* border: 1px solid red; */
+  width: 50%;
+
+  margin: 2rem auto 0 auto;
+}
+.formdiv > p {
+color: grey;
+}
+.formdiv > form > input {
+  width: 90%;
+  height: 1.5rem;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom-color: rgb(77, 224, 224);
+
+  margin-bottom: 2rem;
+}
+.submitbtn {
+  width: 90%;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(30, 173, 173);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.note {
+  font-weight: 100;
+  color: grey;
+}
+.note span {
+  color: rgb(30, 173, 173);
+}
